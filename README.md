@@ -1,2 +1,2 @@
-# dariodds-nsemea-sample-parenttransaction-lib-poc
+# nsemea-sample-parenttransaction-lib-poc
 NSEMEA sample parent transaction lib poc
