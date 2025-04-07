@@ -1,7 +1,10 @@
 import * as log from 'N/log';
 
-export class SampleParentTransactionServiceLUSY {
-  logLusy(message: string) {
-    log.debug('LUSY > SampleParentTransactionService', `PARENT LUSY Generic : ${message}`);
+export const SampleParentTransactionServiceLUSY = {
+  logLusy1(message: string) {
+    log.debug('LUSY 1 > SampleParentTransactionService', `PARENT LUSY 1 Generic : ${message}`);
+  },
+  logLusy2(message: string) {
+    log.debug('LUSY 2 > SampleParentTransactionService', `PARENT LUSY 2 Generic : ${message}`);
   }
 }
