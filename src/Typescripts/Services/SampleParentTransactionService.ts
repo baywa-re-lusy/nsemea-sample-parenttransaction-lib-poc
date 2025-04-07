@@ -7,5 +7,6 @@ export class SampleParentTransactionService {
   }
   presetFields(SampleTransaction: SampleParentTransaction) {
     SampleTransaction.custbody_deliveryapptrequired = true;
+    log.debug('SampleParentTransactionService', 'PARENT Generic preset fields');
   }
 }
