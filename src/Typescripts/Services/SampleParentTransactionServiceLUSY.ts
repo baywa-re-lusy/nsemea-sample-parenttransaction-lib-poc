@@ -8,7 +8,7 @@ export const SampleParentTransactionServiceLUSY = {
   logLusy2(message: string) {
     log.debug('LUSY 2 > SampleParentTransactionService', `PARENT LUSY 2 Generic : ${message}`);
   },
-  presetFieldsLUSY(SampleTransaction: SampleParentTransaction) {
+  presetFields(SampleTransaction: SampleParentTransaction) {
     SampleTransaction.custbody_namecontactonsite = 'Please specifiy a name!';
   }
 }
